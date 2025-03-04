@@ -1,7 +1,7 @@
-const webSocketServer = require('websocket').server;
-const http = require('http');
+import { server as webSocketServer } from 'websocket';
+import { createServer } from 'http';
 
-const server = http.createServer();
+const server = createServer();
 server.listen(55455);
 const wsServer = new webSocketServer({ httpServer: server });
 
