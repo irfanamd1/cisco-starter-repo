@@ -1,0 +1,28 @@
+.Exhibit {
+    width: 300px;
+    padding: 8px;
+    margin: 4px;
+    text-align: center;
+    color: #fff;
+    background-color: #080808;
+    border: 2px solid #212121;
+    border-radius: 4px;
+}
+
+.ExhibitHeading {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ExhibitContent {
+    margin: 0.5vw;
+    padding: 1px 14px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #080808;
+    border: 2px solid #212121;
+    border-radius: 4px;
+}
+
