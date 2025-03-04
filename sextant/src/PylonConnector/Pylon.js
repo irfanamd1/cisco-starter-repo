@@ -11,7 +11,7 @@ const Pylon = () => {
         };
     }, []);
 
-    return <span className="PylonConnector">{latency}</span>;
+    return <span>{latency}</span>;
 };
 
 export default Pylon;
